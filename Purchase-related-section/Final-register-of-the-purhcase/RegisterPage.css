@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+.productRegisteringDivision {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  width: 25%;
+  align-items: center;
+}

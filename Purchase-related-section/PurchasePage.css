@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+.productsItemsList {
+  padding: 0;
+}
+
+.productsItems {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}

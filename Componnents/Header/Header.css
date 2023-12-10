@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    direction: rtl;
+  }
+  
+  .headerOuterContainer {
+    background-color: aqua;
+  }
+  
+  .headerInnerContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .headerNavItemsContainer {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+  }
+  
+  .headerNavItems {
+    list-style-type: none;
+  }
+  .headerTitle {
+    text-align: center;
+    margin: 0;
+    color: red;
+    font-size: 3em;
+    font-weight: 700;
+  }
+  
+  .shoppingCartListInnerContainer{
+    width: 20%;
+    position: absolute;
+    background-color: cornsilk;
+  }
+
+  .shoppingCacrtList{
+    padding: 0;
+  }
+  .shoppingCacrtList li{
+    list-style-type: none;
+    padding: 10px 20px;
+  }
+
+  .shopiingCartItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.productRegisteringDivision{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.InnerContainer{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.productChooseInformationItems{
+    list-style-type: none;
+    padding-top: 30px;
+}
